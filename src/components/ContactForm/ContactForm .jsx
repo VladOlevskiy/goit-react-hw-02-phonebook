@@ -53,7 +53,7 @@ export class ContactForm extends Component {
           </Label>
           <ErrorMessage name="name" component="div" />
           <Label>
-            Phone-number
+            Phone
             <Field
               type="tel"
               name="number"

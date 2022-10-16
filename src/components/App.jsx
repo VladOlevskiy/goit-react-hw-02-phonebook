@@ -6,6 +6,7 @@ import { ContactForm } from './ContactForm/ContactForm ';
 import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
 import PropTypes from 'prop-types';
+import { FcPhoneAndroid } from 'react-icons/fc';
 
 export class App extends Component {
   state = {
@@ -57,7 +58,10 @@ export class App extends Component {
             backgroundColor="#cbcbcb"
             marginBottom="80px"
           >
-            <h1>Phonebook</h1>
+            <h1>
+              <FcPhoneAndroid size={25} />
+              Phonebook
+            </h1>
             <ContactForm
               onSubmit={this.onSubmit}
               contacts={this.state.contacts}

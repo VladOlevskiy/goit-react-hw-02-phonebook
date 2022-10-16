@@ -1,6 +1,6 @@
 import React from 'react';
 import { Message, Box, Button, Info, Li } from './ContactList-styled';
-import { FcInfo } from 'react-icons/fc';
+import { FcInfo, FcPhoneAndroid } from 'react-icons/fc';
 import PropTypes from 'prop-types';
 
 export const ContactList = ({ contact, onDelete }) => {
